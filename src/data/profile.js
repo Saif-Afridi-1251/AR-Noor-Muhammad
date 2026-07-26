@@ -17,13 +17,13 @@ const profile = {
    resume: "/src/resume/ARCHITECT-- NOOR MUHAMMAD.pdf",
 
    
-   yearsExperience: "3",
+    residentialProject: "50",
 
-    projectsCompleted:10,
+    interiorProject: "30",
 
-    certifications: 3,
+    commercialProject: "150",
 
-    technologies:10
+    LandScapeProject:"12o"
 };
 
 export default profile;

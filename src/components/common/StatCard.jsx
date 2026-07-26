@@ -33,7 +33,7 @@ function StatCard({ number, label }) {
       <h3
         className="
           text-3xl
-          sm:text-4xl
+          sm:text-3xl
           lg:text-5xl
           font-bold
           text-blue-400

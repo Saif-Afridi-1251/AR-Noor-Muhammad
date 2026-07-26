@@ -70,7 +70,7 @@ words={[
 
 "Architect" ,
 "Interior Designer"  ,
-"Landscape Designer"
+
 
 ]}
 

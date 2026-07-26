@@ -17,7 +17,7 @@ function ProjectCard({ project }) {
     >
       <GlassCard className="group h-full overflow-hidden">
         {/* Project Image */}
-        <div className="overflow-hidden rounded-t-2xl">
+        <div className="overflow-hidden rounded-t-2xl object-contain object-cover">
           <img
             src={project.image}
             alt={project.title}

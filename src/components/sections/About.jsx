@@ -35,7 +35,7 @@ className="rounded-3xl shadow-2xl"
 
 <h3 className="text-3xl font-bold">
 
-  Architect |  Interior Designer | Landscape Designer
+  Architect |  Interior Designer  
 
 </h3>
 
@@ -47,23 +47,23 @@ className="rounded-3xl shadow-2xl"
 <div className="grid grid-cols-2 gap-5 mt-10">
 
 <StatCard
-number={profile.projectsCompleted}
-label="Projects"
+number={profile.residentialProject}
+label="Residential Project"
 />
 
 <StatCard
-number={profile.yearsExperience}
-label="Years"
+number={profile.interiorProject}
+label="Interiror Project"
 />
 
 <StatCard
-number={profile.certifications}
-label="Certificates"
+number={profile.commercialProject}
+label="Commercial Project"
 />
 
 <StatCard
-number={profile.technologies}
-label="Technologies"
+number={profile.LandScapeProject}
+label="Landscape Project"
 />
 
 </div>

@@ -110,6 +110,32 @@ const projects = [
       "Lumion",
     ],
   },
+   {
+    id: 5,
+    title: "Commercial Projects",
+    category: "Commercial",
+    image:"/3d-visulization.jpeg",
+    description:
+      "Designed Farm House 4 Kanal Gulberg Green Islamabad  for commercial client.",
+    tech: [
+      "AutoCAD",
+      "SketchUp",
+      "Lumion",
+    ],
+  },
+  {
+    id: 5,
+    title: "Commercial Projects",
+    category: "Commercial",
+    image:"/interiordesign.jpeg",
+    description:
+      "interior Design of Farm House  Gulberg Green Islamabad .",
+    tech: [
+      "AutoCAD",
+      "SketchUp",
+      "Lumion",
+    ],
+  },
 ];
 
 export default projects;

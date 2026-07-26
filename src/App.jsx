@@ -1,6 +1,6 @@
 import Navbar from "./components/layout/Navbar"
 import About from "./components/sections/About"
-import Certificates from "./components/sections/Certificates"
+// import Certificates from "./components/sections/Certificates"
 import Contact from "./components/sections/Contact"
 import Experience from "./components/sections/Experience"
 import Hero from "./components/sections/Hero"
@@ -48,7 +48,7 @@ function App() {
         <Profkills/>
         <Experience />
         <Projects />
-        <Certificates />
+       
         <Contact />
       </main>
 
