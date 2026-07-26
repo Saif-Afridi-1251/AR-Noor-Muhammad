@@ -58,7 +58,7 @@ const projects = [
     id: 1,
     title: "Landscape Design Projects",
     category: "Landscape",
-    image: "/landscape.jfif",
+    image: "/landscape.jpg",
     description:
       "Designed parks, roundabouts, farmhouses, society landscaping, entrances, green belts, and residential lawns across Pakistan.",
     tech: [
@@ -73,7 +73,7 @@ const projects = [
     id: 2,
     title: "Educational Projects",
     category: "Architecture",
-    image: "/education.jfif" ,
+    image: "/education.jpg" ,
     description:
       "Designed schools, colleges, hospitals, and university buildings in multiple cities of Pakistan.",
     tech: [
@@ -86,7 +86,7 @@ const projects = [
   {
     id: 3,
     title: "Residential Projects",
-    image:"/home.jfif",
+    image:"/home.jpg",
     category: "Residential",
     description:
       "Designed houses, apartments, and farmhouses with modern architectural concepts.",
@@ -101,7 +101,7 @@ const projects = [
     id: 4,
     title: "Commercial Projects",
     category: "Commercial",
-    image:"/plaza.jfif",
+    image:"/plaza.jpg",
     description:
       "Designed plazas, shopping malls, and mosque projects for commercial clients.",
     tech: [
