@@ -11,6 +11,7 @@ import Loader from "./components/common/Loader"
 import { useEffect, useState } from "react"
 
 import BackgroundEffects from "./components/common/BackgroundEffect"
+import Profkills from "./components/sections/ProfSkill"
 
 
 
@@ -44,6 +45,7 @@ function App() {
         <Hero />
         <About />
         <Skills/>
+        <Profkills/>
         <Experience />
         <Projects />
         <Certificates />

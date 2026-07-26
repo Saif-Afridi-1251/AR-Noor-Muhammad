@@ -24,7 +24,7 @@ subtitle="Who I Am"
 <div>
 
 <img
-src="/profile.jpg"
+src="/profile.png"
 alt="Profile"
 className="rounded-3xl shadow-2xl"
 />

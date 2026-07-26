@@ -1,9 +1,9 @@
 import React from 'react'
 import SectionTitle from "../common/sectiontitle";
 import SkillCard from "../common/SkillCard";
-import skills from "../../data/skills";
+import skills from '../../data/profskill';
 
-function Skills(){
+function Profkills(){
 
 return(
 
@@ -13,7 +13,7 @@ className="max-w-7xl mx-auto py-32 px-6"
 >
 
 <SectionTitle
-title="Software"
+title="Professional"
 subtitle="MY SKILLS"
 />
 
@@ -43,4 +43,4 @@ skill={skill}
 
 }
 
-export default Skills;
+export default Profkills;

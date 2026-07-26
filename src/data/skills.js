@@ -7,6 +7,9 @@ import {
 } from "react-icons/fa";
 
 
+
+
+
 const skills = [
   {
     name: "AutoCAD 2D",
@@ -39,30 +42,6 @@ const skills = [
 ];
 
 
-// const skills = {
-//   technical: [
-//     "AutoCAD 2D",
-//     "AutoCAD 3D",
-//     "Trimble SketchUp",
-//     "Lumion",
-//     "V-Ray",
-//     "Adobe Photoshop",
-//     "Sketching",
-//   ],
 
-//   professional: [
-//     "Architecture",
-//     "Interior Design",
-//     "Landscape Design",
-//     "Architectural Drawing",
-//     "2D Planning",
-//     "Residential Design",
-//     "Commercial Design",
-//     "Space Planning",
-//     "3D Visualization",
-//     "Site Supervision",
-//     "Site Inspection",
-//   ],
-// };
 
 export default skills;
