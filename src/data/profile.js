@@ -3,7 +3,7 @@
 
 
 const profile = {
-  name: "Noor Muhammad",
+  name: "AR Noor Muhammad",
   role:"Architect",
   title: "Architect | Interior Designer | Landscape Designer",
   location: "Islamabad, Pakistan",
