@@ -50,9 +50,9 @@ transition={{duration:1}}
 
  className="max-w-7xl mx-auto px-6">
 
-<h2 className="text-2xl text-blue-400">
+<h2 className="lg:text-2xl sm:text-xl sm:text-sm  text-blue-400">
 
-Hello, I'm
+Hello , I'm
 
 </h2>
 
