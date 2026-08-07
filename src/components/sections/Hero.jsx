@@ -56,7 +56,7 @@ Hello, I'm
 
 </h2>
 
-<h1 className="text-6xl font-bold mt-3">
+<h1 className="text-6xl md:text-4xl sm:text-3xl  font-bold mt-3">
 
 {profile.name}
 
