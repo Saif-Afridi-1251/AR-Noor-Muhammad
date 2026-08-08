@@ -27,7 +27,7 @@ return(
 
 <section
 id="home"
-className="relative mt-20 min-h-screen flex items-center overflow-hidden"
+className="relative  min-h-screen flex items-center overflow-hidden"
 >
 
     {/* This creates a modern glowing background without using images. */}
@@ -50,7 +50,7 @@ transition={{duration:1}}
 
  className="max-w-7xl mx-auto px-6">
 
-<h2 className="lg:text-2xl sm:text-xl sm:text-sm  text-blue-400">
+<h2 className="lg:text-2xl mt-20 sm:text-xl sm:text-sm  text-blue-400">
 
 Hello , I'm
 

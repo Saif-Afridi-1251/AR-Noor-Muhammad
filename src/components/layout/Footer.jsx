@@ -4,7 +4,7 @@ function Footer() {
   return (
    
      <footer className="py-10 text-center">
-      © 2026 Saif Ullah. Built with React & Tailwind CSS.
+      © 2026 Saif Ullah. Contact saifaws@gmail.com . Built with Love ❤.
     </footer>
     
   )

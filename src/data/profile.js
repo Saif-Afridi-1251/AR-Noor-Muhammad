@@ -23,7 +23,7 @@ const profile = {
 
     commercialProject: "150",
 
-    LandScapeProject:"12o"
+    LandScapeProject:"120"
 };
 
 export default profile;
