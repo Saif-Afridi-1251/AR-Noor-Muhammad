@@ -7,9 +7,9 @@ function Loader() {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-24 h-24 rounded-full bg-blue-600 flex items-center justify-center text-4xl font-bold text-white"
+        className="w-70 h-70 rounded-full bg-blue-600 flex items-center justify-center text-4xl font-bold text-white"
       >
-        AR
+        <img src="../../../public/profile.png" alt="" className="rounded-full" />
       </motion.div>
 
       <motion.h1
@@ -18,7 +18,7 @@ function Loader() {
         transition={{ delay: 0.3 }}
         className="mt-6 text-3xl font-bold text-white"
       >
-        Noor Muhmmad
+        AR Noor Muhmmad
       </motion.h1>
 
       <motion.p
