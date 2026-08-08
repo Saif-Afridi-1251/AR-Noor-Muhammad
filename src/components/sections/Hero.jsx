@@ -90,7 +90,7 @@ deleteSpeed={40}
 
 
 
-<p className="text-slate-400 mt-8 max-w-xl leading-8">
+<p className="light:text-slate-200 dark:text-black mt-8 max-w-xl leading-8">
 
 {profile.description}
 

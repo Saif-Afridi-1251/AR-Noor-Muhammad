@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import SectionTitle from "../common/sectiontitle";
 import ProjectCard from "../common/ProjectCard";
 import projects from "../../data/projects";
 
 function Projects(){
+  const [showAll, setShowAll] = useState(false);
+  const visibleCount = showAll ? projects.length : 4;
+  const toggleProjects = () => setShowAll((prev) => !prev);
 
-return(
+  return(
 
 <section
 id="projects"
@@ -21,15 +24,15 @@ subtitle="Portfolio"
 
 />
 
-<div className="grid lg:grid-cols-2 gap-10">
+<div className="grid lg:grid-cols-2 gap-10 mt-10">
 
 {
 
-projects.map(project=>(
+projects.slice(0, visibleCount).map(project=>(
 
 <ProjectCard
 
-key={project.title}
+key={project.id}
 
 project={project}
 
@@ -40,6 +43,18 @@ project={project}
 }
 
 </div>
+
+{projects.length > 4 && (
+  <div className="mt-10 flex justify-center">
+    <button
+      type="button"
+      onClick={toggleProjects}
+      className="rounded-xl bg-blue-600 px-8 py-3 text-sm font-semibold text-white transition hover:bg-blue-700"
+    >
+      {showAll ? "Show Less Projects" : "Show More Projects"}
+    </button>
+  </div>
+)}
 
 </section>
 

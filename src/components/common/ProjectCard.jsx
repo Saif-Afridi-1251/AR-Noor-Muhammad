@@ -16,22 +16,34 @@ function ProjectCard({ project }) {
       className="h-full"
     >
       <GlassCard className="group h-full overflow-hidden">
-        {/* Project Image */}
-        <div className="overflow-hidden rounded-t-2xl object-contain object-cover">
-          <img
-            src={project.image}
-            alt={project.title}
-            className="
-              w-full
-              h-48
-              sm:h-56
-              lg:h-64
-              object-cover
-              transition-transform
-              duration-500
-              group-hover:scale-105
-            "
-          />
+        {/* Project Media */}
+        <div className="overflow-hidden rounded-t-2xl">
+          {project.video ? (
+            <video
+              src={project.video}
+              poster={project.image}
+              className="w-full h-full sm:h-56 lg:h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+              controls
+              muted
+              loop
+              playsInline
+            />
+          ) : (
+            <img
+              src={project.image}
+              alt={project.title}
+              className="
+                w-full
+                h-full
+                sm:h-56
+                lg:h-64
+                object-cover
+                transition-transform
+                duration-500
+                group-hover:scale-105
+              "
+            />
+          )}
         </div>
 
         {/* Card Content */}
