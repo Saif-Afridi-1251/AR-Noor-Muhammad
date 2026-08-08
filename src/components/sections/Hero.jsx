@@ -99,7 +99,7 @@ deleteSpeed={40}
 
 <a
 
-href={"https://wa.me/profile.phone"}
+href={"https://wa.me/923060309513"}
 
 target="_blank"
 
