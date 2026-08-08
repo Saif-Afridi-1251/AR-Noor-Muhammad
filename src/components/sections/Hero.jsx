@@ -27,7 +27,7 @@ return(
 
 <section
 id="home"
-className="relative min-h-screen flex items-center overflow-hidden"
+className="relative top-20 min-h-screen flex items-center overflow-hidden"
 >
 
     {/* This creates a modern glowing background without using images. */}
