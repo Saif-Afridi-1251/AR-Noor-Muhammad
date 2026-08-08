@@ -2,6 +2,7 @@ import Navbar from "./components/layout/Navbar"
 import About from "./components/sections/About"
 // import Certificates from "./components/sections/Certificates"
 import Contact from "./components/sections/Contact"
+import ContactInfo from "./components/sections/ContactInfo"
 import Experience from "./components/sections/Experience"
 import Hero from "./components/sections/Hero"
 import Projects from "./components/sections/Projects"
@@ -48,8 +49,8 @@ function App() {
         <Profkills/>
         <Experience />
         <Projects />
-       
         <Contact />
+        <ContactInfo />
       </main>
 
       <Footer /> 
