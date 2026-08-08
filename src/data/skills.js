@@ -20,7 +20,7 @@ const skills = [
     icon: FaCube,
   },
   {
-    name: "Trimble SketchUp",
+    name: "SketchUp",
     icon: FaCube,
   },
   {

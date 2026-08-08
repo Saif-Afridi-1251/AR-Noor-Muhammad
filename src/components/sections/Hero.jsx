@@ -9,7 +9,7 @@ import {
 FaGithub,
 
 FaLinkedin,
-
+FaWhatsapp,
 FaEnvelope,
 FaFacebook,
 FaFilePowerpoint
@@ -99,7 +99,7 @@ deleteSpeed={40}
 
 <a
 
-href={profile.facebook}
+href={"https://wa.me/profile.phone"}
 
 target="_blank"
 
@@ -107,7 +107,7 @@ rel="noreferrer"
 
 >
 
-<FaFacebook size={28}/>
+<FaWhatsapp size={28}/>
 
 </a>
 

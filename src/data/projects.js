@@ -72,7 +72,7 @@ const projects = [
 
   {
     id: 2,
-    title: "Educational Projects",
+    title: "Commercial Apartment",
     category: "Architecture",
     image: "/education.jpg" ,
     description:
@@ -113,7 +113,7 @@ const projects = [
   },
    {
     id: 5,
-    title: "Commercial Projects",
+    title: "Residential Projects",
     category: "Commercial",
     image:"/3d-visulization.jpeg",
     description:
@@ -126,7 +126,7 @@ const projects = [
   },
   {
     id: 6,
-    title: "Commercial Projects",
+    title: "Interior Design",
     category: "Commercial",
     image:"/interiordesign.jpeg",
     description:
